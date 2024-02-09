@@ -1,5 +1,65 @@
 body{
     margin: 0px;
     background-color: #FFF;
+    height: 100vh;
 }
 
+.container{
+    display: flex;
+    justify-content: center; /* Horizontale Ausrichtung zentrieren */
+    align-items: center; /* Vertikale Ausrichtung zentrieren */
+    
+}
+
+.start-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontale Ausrichtung zentrieren */
+    align-items: center; /* Vertikale Ausrichtung zentrieren */
+    margin: 8rem 0 0 0;
+    font-size: 4rem;
+    font-family: 'VT323', monospace;
+    color: #FFF;
+}
+
+#start-titel-text{
+    font-size: 13rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+
+}
+
+.background-img{
+    background-image: url('/new-website/minecraft-starting-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*background-repeat: ;*/
+}
+
+.links{
+    text-decoration: none;
+
+}
+
+.home-logo-titel{
+    font-family: 'VT323', monospace;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-titles{
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#start-animation-link{
+    background-image: url('/new-website/minecraft-starting-img.jpg');
+}
