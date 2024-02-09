@@ -30,7 +30,7 @@ body{
 }
 
 .background-img{
-    background-image: url('/new-website/minecraft-starting-img.jpg');
+    background-image: url('/mywebsite/new-website/minecraft-starting-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
